@@ -13,7 +13,7 @@ Make sure you have Python installed on your system. You can download it from [py
 3. Run the script using the command:
 
     ```bash
-    python script_name.py
+    PyClock.py
     ```
 
 ## Dependencies

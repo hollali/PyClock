@@ -3,10 +3,10 @@ import time
 
 def update_clock():
     ora_curenta = time.strftime("%H:%M:%S")
-    ceas.config(text=ora_curenta)  # Corrected the typo in 'config'
+    ceas.config(text=ora_curenta) 
     ceas.after(1000, update_clock)
 
-app = tk.Tk()  # Corrected the typo in 'Tk'
+app = tk.Tk()  
 app.title("Ceas Python")
 
 ceas = tk.Label(app, text="", font=("Helvetica", 48))
